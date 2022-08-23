@@ -1,0 +1,20 @@
+.dabba {
+    width: 80%;
+    margin: 10%;
+    border-radius: 15px;
+}
+#video{
+    width: 80%;
+}
+body{
+    background-image: url('../media/IITR.jpg');
+    background-size: cover ;
+}
+#box{
+    background-color: rgba(77, 81, 84, 0.235);
+    backdrop-filter: blur(15px);
+    margin-top: 5%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 50px;
+}
