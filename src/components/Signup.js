@@ -38,6 +38,16 @@ const Signup =()=>{
         }
     }
     }
+    //to prevent again signin after authentication
+        if(localStorage.getItem('token')){
+        return(
+            <>
+            <center><h1>you are logged in </h1><br />
+            <h2>Enjoy my app</h2>
+            </center>
+            </>
+        )
+    }
 return(
     <>
     <div id="box" className="container">
